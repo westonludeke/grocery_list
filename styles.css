@@ -1,0 +1,70 @@
+.container {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #02B595;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: left;
+  color: #02B595;
+}
+
+h2 {
+  color: #B42709;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #02B595;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  background-color: #B42709;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: disc;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #02B595;
+}
+
+@media print {
+  #grocery-form {
+    display: none;
+  }
+}
